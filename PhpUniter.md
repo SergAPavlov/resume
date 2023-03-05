@@ -30,4 +30,40 @@
 <a href="https://github.com/uniter1-dev/uniter-laravel">плагин для Laravel</a>,
 <a href="https://github.com/uniter1-dev/uniter-requester">библиотека для плагинов</a> 
 
+## Пример сгенерированного системой кода
+```php
+use Mockery;
+use Mockery\Adapter\Phpunit\MockeryTestCase;
+use Tests\Feature\Application\Cases\AltDev\ChainWithInjPlus;
+use Tests\Feature\Application\Cases\Etalon\EtalonAltExample;
+
+/** 
+* @see ChainWithInjPlus
+*/
+class ChainWithInjPlusTest extends MockeryTestCase
+{
+    /** 
+    * @see ChainWithInjPlus::problem()
+    * @uniter_chain_wrong_type Unknown type for injection chain. Context: class: ChainWithInjPlus, method: problem, flow: 0, injection: $three->testableMethod(1, 2)
+    */
+    public function testProblem0()
+    {
+        /** @var EtalonAltExample $etalonAltExample */
+        $etalonAltExample = Mockery::mock('EtalonAltExample')->makePartial();
+        $chainWithInjPlus = new ChainWithInjPlus();
+        $this->assertEquals(4, $chainWithInjPlus->problem(ARG_py));
+    }
+    /** 
+    * @see ChainWithInjPlus::problem()
+    * @uniter_chain_wrong_type Unknown type for injection chain. Context: class: ChainWithInjPlus, method: problem, flow: 1, injection: $three->testableMethod(1, 2)
+    */
+    public function testProblem1()
+    {
+        /** @var EtalonAltExample $etalonAltExample */
+        $etalonAltExample = Mockery::mock('EtalonAltExample')->makePartial();
+        $chainWithInjPlus = new ChainWithInjPlus();
+        $this->assertEquals(EXPECTED_RETURN, $chainWithInjPlus->problem(ARG_py));
+    }
+}
+```
 v0.0.995
