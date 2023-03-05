@@ -22,3 +22,5 @@
 </p>
 <h2>Contacts:</h2>
 <a href="mailto:sergey.abx.pavlov@gmail.com">sergey.abx.pavlov@gmail.com</a>
+
+<a href="https://github.com/SergAPavlov/resume/blob/main/readme_ru.md">Resume in russian</a>
