@@ -27,8 +27,7 @@
 ## Работа с системой на сервере проекта
 Работа с системой осуществляется через командную строку. Доступны плагины для Laravel и Yii.
 
-[код плагина для Laravel](PhpUniter)
-
-[библиотека для плагинов](PhpUniter)
+<a href="https://github.com/uniter1-dev/uniter-laravel">плагин для Laravel</a>,
+<a href="https://github.com/uniter1-dev/uniter-requester">библиотека для плагинов</a> 
 
 v0.0.995
