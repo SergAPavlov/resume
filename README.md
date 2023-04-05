@@ -3,7 +3,7 @@
 <h2>About me: </h2>
 <p>Php developer, 56 years old. Development experience: 8 years .</p>
 <h2>Skills and technologies:</h2>
-<p><i>Languages:</i> PHP (basic, up to 8.3), Javascript, Bash - if necessary.<br />
+<p><i>Languages:</i> PHP (up to 8.3), Javascript, Bash.<br />
 <i>Frameworks: </i>Laravel (thoroughly), Yii, Sylex - occasionally.<br />
 <i>For testing:</i> PHPUnit, Mockery.<br />
 <i>Databases:</i> experience with MySQL, Postgres, MongoDB, Redis.<br />
